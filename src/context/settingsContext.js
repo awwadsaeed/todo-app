@@ -10,11 +10,9 @@ function SettingsContext(props) {
 
 
     function setSettings(numb,val){
-        if(numb){
             setNumberOfItems(numb)
-        }
-            setView(val);
-        
+
+            setView(val); 
     }
    function nextpage(){
        setStart(start+numberOfItems);
